@@ -6,7 +6,10 @@
   </head>
   <body>
     <div id="board1" style="width: 400px"></div>
-		<div id="movebox"><input type="text" id="move" value=""></div>
+		<div id="movebox">
+      <input type="text" id="move" value="">
+      <input type="button" id="setStartBtn" value="Make move">
+    </div>
     <script>
 			$(document).ready(function() {
 				var cfg = {
@@ -16,7 +19,7 @@
 				};
 				var board1 = ChessBoard('board1',cfg);
 			
-			$('#move').on('input', function(e) {
+			$('#setStartBtn').on('click', function(e) {
         board1.move($('#move').val());
 			});
 		});
