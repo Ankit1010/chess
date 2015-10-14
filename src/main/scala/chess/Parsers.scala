@@ -11,7 +11,7 @@ object Parsers extends App {
   import Atto._
   implicit class SuperParser[+A](p:Parser[A]) {
     //one or zero matches of p
-    def ?(): Parser[Option[A]] = { opt(p) | ok[Option[A]](None) }
+    def ?():Parser[Option[A]] = { opt(p) }
   }
 
   implicit class SuperEither[A](e: \/[A,A]) {
@@ -117,12 +117,9 @@ object Parsers extends App {
     import TagPair._
     import Tokens._
     val comment = token(braces(many(noneOf("{}")).map(_.mkString(""))))
-    val game = for { tags <- token(tagPairs);
-                     comments <- token(comment?);
-                     plys <- token(moves);
-                     outcome <- token(gameResult)
-    } yield { (tags,comments,plys,outcome) }
+    val game = (token(tagPairs) |@| token(comment?) |@| token(moves) |@| token(gameResult)){case x => x}
     val games = sepBy(game, wspc)
+
   }
 
 
