@@ -1,0 +1,14 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2015.09.28"]
+[White "ankitsoni9"]
+[Black "deezo_fer"]
+[Result "1-0"]
+[WhiteElo "940"]
+[BlackElo "898"]
+[TimeControl "10|0"]
+[Termination "ankitsoni9 won by checkmate"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Nc3 Bb4 5.Nd5 Nxe4 6.Nxb4 Nxb4 7.Nxe5 d6 8.Qh5 g6 9.Bxf7+ Ke7 10.Qh4+ Nf6
+ 11.d4 Nxc2+ 12.Kd1 Nxa1 13.Bg5 dxe5 14.Bxf6+ Kxf7 15.Bxd8 Bf5 16.Bxc7 exd4 17.Re1 Nc2 18.Re7+ Kf8 19.Qf6+ Kg8 20.Qf7#
+ 1-0

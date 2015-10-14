@@ -1,0 +1,86 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2015.09.14"]
+[White "eugenevista"]
+[Black "ankitsoni9"]
+[Result "1-0"]
+[WhiteElo "946"]
+[BlackElo "968"]
+[TimeControl "10|0"]
+[Termination "eugenevista won on time"]
+
+1.d4 d5 2.c4 c6 3.e3 Nd7 4.Nf3 Ndf6 5.h3 Bf5 6.Nc3 Be4 7.cxd5 Nxd5 8.Bc4 Nxc3 9.bxc3 e6 10.a4 Bd6
+ 11.Bd3 Bxd3 12.Qxd3 Nh6 13.e4 Qb6 14.e5 Nf5 15.exd6 Rc8 16.O-O Rd8 17.Ba3 Nxd6 18.Bc5 Qc7 19.Ng5 Nf5 20.Rfb1 b6
+ 21.Bb4 c5 22.Ba3 cxd4 23.Qb5+ Rd7 24.Rd1 Nd6 25.Bxd6 Qxd6 26.Rxd4 Qxd4 27.cxd4 Ke7 28.Rd1 h6 29.Nf3 f6 30.d5 e5
+ 31.d6+ Ke6 32.g4 Rxd6 33.Rxd6+ Kxd6 34.Qd3+ Ke6 35.Qa6 Rd8 36.Qxa7 1-0
+
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2015.09.17"]
+[White "ankitsoni9"]
+[Black "Bonesytr"]
+[Result "0-1"]
+[WhiteElo "953"]
+[BlackElo "951"]
+[TimeControl "10|0"]
+[Termination "Bonesytr won on time"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 h6 4.d4 exd4 5.Nxd4 Nf6 6.Nxc6 bxc6 7.Nc3 d6 8.O-O Bg4 9.Qd2 Be7 10.Bb3 O-O
+ 11.Ba4 Qd7 12.Qe3 Rfe8 13.Rd1 Bd8 14.f3 Bh5 15.e5 Rxe5 16.Qf4 Qe8 17.Bd2 Bg6 18.Qh4 Nd5 19.Qc4 Nb6 20.Qxc6 Qxc6
+ 21.Bxc6 Rb8 22.Be4 Nc4 23.b3 Nxd2 24.Bxg6 fxg6 25.Rxd2 Bf6 26.Ne4 Be7 27.Re1 Bh4 28.g3 Bf6 29.f4 Ra5 30.Nxf6+ gxf6
+ 31.a4 c5 32.Re6 Kf7 33.Rdxd6 Rb6 34.Rxb6 axb6 35.Rxb6 f5 36.Kf2 Ra8 37.Rc6 Re8 38.Rxc5 Kf6 39.a5 g5 40.a6 Ra8
+ 41.Rc6+ Ke7 42.b4 gxf4 43.gxf4 Rd8 44.b5 Ra8 45.Rxh6 Rb8 46.b6 Kd7 47.a7 Ra8 48.b7 Rxa7 49.b8=Q Rc7 50.Qb5+ Rc6
+ 51.Qxc6+ Ke7 52.Qd6+ Kf7 53.Qe6+ Kg7 54.Qf6+ Kg8 55.Qg7+ Kxg7 56.c4 Kf7 57.c5 Ke8 58.c6 Kd8 0-1
+
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2015.09.18"]
+[White "ankitsoni9"]
+[Black "reddya611"]
+[Result "0-1"]
+[WhiteElo "940"]
+[BlackElo "988"]
+[TimeControl "10|0"]
+[Termination "reddya611 won on time"]
+
+1.e4 e5 2.Nf3 Nc6 3.Nc3 d6 4.d4 exd4 5.Nxd4 Nxd4 6.Qxd4 Nf6 7.e5 dxe5 8.Qxe5+ Be7 9.Bc4 O-O 10.O-O Re8
+ 11.Rd1 Nd7 12.Qg3 h6 13.Bxh6 Bf6 14.Nd5 Be5 15.Qg5 Qxg5 16.Bxg5 Bxb2 17.Nxc7 Bxa1 18.Nxe8 Be5 19.f4 Bb8 20.Bb5 Nb6
+ 21.Rd8 Kh7 22.Bd3+ g6 23.f5 Bc7 24.fxg6+ fxg6 25.Nf6+ Kg7 26.Rg8+ Kf7 27.Bxg6+ Ke6 28.Re8+ Kd6 29.a4 Nd7 30.Ne4+ Kc6
+ 31.Re6+ Kd5 32.c4+ Kxc4 33.Nd2+ Kd5 0-1
+
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2015.09.27"]
+[White "ankitsoni9"]
+[Black "meirKahane"]
+[Result "0-1"]
+[WhiteElo "927"]
+[BlackElo "971"]
+[TimeControl "10|0"]
+[Termination "meirKahane won by resignation"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Nc3 Bc5 5.d3 h6 6.Be3 Bxe3 7.fxe3 d6 8.d4 exd4 9.exd4 O-O 10.d5 Ne7
+ 11.Nd4 Bg4 12.Qd3 Ng6 13.h3 Bd7 14.O-O-O Ne5 15.Qe2 Nxc4 16.Qxc4 a6 17.Qe2 Re8 18.g4 Nh7 19.Qf3 Ng5 20.Qf4 Re5
+ 21.h4 Nh7 22.Rhf1 Qe7 23.Nf5 Bxf5 24.gxf5 Re8 25.Rg1 Qf6 26.Rde1 g5 27.hxg5 Nxg5 28.Qh4 Kh7 29.Rg4 Rxf5 30.Reg1 Nf3
+ 31.Rg7+ Kh8 32.Qxf6 Rxf6 33.R1g3 Ng5 34.e5 Rxe5 35.Ne4 Rxe4 36.Rg8+ Kxg8 37.Rxg5+ hxg5 0-1
+
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2015.09.28"]
+[White "ankitsoni9"]
+[Black "deezo_fer"]
+[Result "1-0"]
+[WhiteElo "940"]
+[BlackElo "898"]
+[TimeControl "10|0"]
+[Termination "ankitsoni9 won by checkmate"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Nc3 Bb4 5.Nd5 Nxe4 6.Nxb4 Nxb4 7.Nxe5 d6 8.Qh5 g6 9.Bxf7+ Ke7 10.Qh4+ Nf6
+ 11.d4 Nxc2+ 12.Kd1 Nxa1 13.Bg5 dxe5 14.Bxf6+ Kxf7 15.Bxd8 Bf5 16.Bxc7 exd4 17.Re1 Nc2 18.Re7+ Kf8 19.Qf6+ Kg8 20.Qf7#
+ 1-0
+
+

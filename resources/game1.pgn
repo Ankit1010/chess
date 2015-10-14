@@ -1,0 +1,17 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2015.09.17"]
+[White "ankitsoni9"]
+[Black "Bonesytr"]
+[Result "0-1"]
+[WhiteElo "953"]
+[BlackElo "951"]
+[TimeControl "10|0"]
+[Termination "Bonesytr won on time"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 h6 4.d4 exd4 5.Nxd4 Nf6 6.Nxc6 bxc6 7.Nc3 d6 8.O-O Bg4 9.Qd2 Be7 10.Bb3 O-O
+ 11.Ba4 Qd7 12.Qe3 Rfe8 13.Rd1 Bd8 14.f3 Bh5 15.e5 Rxe5 16.Qf4 Qe8 17.Bd2 Bg6 18.Qh4 Nd5 19.Qc4 Nb6 20.Qxc6 Qxc6
+ 21.Bxc6 Rb8 22.Be4 Nc4 23.b3 Nxd2 24.Bxg6 fxg6 25.Rxd2 Bf6 26.Ne4 Be7 27.Re1 Bh4 28.g3 Bf6 29.f4 Ra5 30.Nxf6+ gxf6
+ 31.a4 c5 32.Re6 Kf7 33.Rdxd6 Rb6 34.Rxb6 axb6 35.Rxb6 f5 36.Kf2 Ra8 37.Rc6 Re8 38.Rxc5 Kf6 39.a5 g5 40.a6 Ra8
+ 41.Rc6+ Ke7 42.b4 gxf4 43.gxf4 Rd8 44.b5 Ra8 45.Rxh6 Rb8 46.b6 Kd7 47.a7 Ra8 48.b7 Rxa7 49.b8=Q Rc7 50.Qb5+ Rc6
+ 51.Qxc6+ Ke7 52.Qd6+ Kf7 53.Qe6+ Kg7 54.Qf6+ Kg8 55.Qg7+ Kxg7 56.c4 Kf7 57.c5 Ke8 58.c6 Kd8 0-1

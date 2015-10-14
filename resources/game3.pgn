@@ -1,0 +1,15 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2015.09.27"]
+[White "ankitsoni9"]
+[Black "meirKahane"]
+[Result "0-1"]
+[WhiteElo "927"]
+[BlackElo "971"]
+[TimeControl "10|0"]
+[Termination "meirKahane won by resignation"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Nc3 Bc5 5.d3 h6 6.Be3 Bxe3 7.fxe3 d6 8.d4 exd4 9.exd4 O-O 10.d5 Ne7
+ 11.Nd4 Bg4 12.Qd3 Ng6 13.h3 Bd7 14.O-O-O Ne5 15.Qe2 Nxc4 16.Qxc4 a6 17.Qe2 Re8 18.g4 Nh7 19.Qf3 Ng5 20.Qf4 Re5
+ 21.h4 Nh7 22.Rhf1 Qe7 23.Nf5 Bxf5 24.gxf5 Re8 25.Rg1 Qf6 26.Rde1 g5 27.hxg5 Nxg5 28.Qh4 Kh7 29.Rg4 Rxf5 30.Reg1 Nf3
+ 31.Rg7+ Kh8 32.Qxf6 Rxf6 33.R1g3 Ng5 34.e5 Rxe5 35.Ne4 Rxe4 36.Rg8+ Kxg8 37.Rxg5+ hxg5 0-1
