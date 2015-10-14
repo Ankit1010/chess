@@ -1,1 +1,25 @@
-my github page
+<html>
+  <head>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/chessboardjs-0/js/chessboard-0.3.0.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/chessboard-0.3.0.min.css">
+  </head>
+  <body>
+    <div id="board1" style="width: 400px"></div>
+		<div id="movebox"><input type="text" id="move" value=""></div>
+    <script>
+			$(document).ready(function() {
+				var cfg = {
+					draggable: true,
+					dropOffBoard: 'snapback',
+					position: 'start'
+				};
+				var board1 = ChessBoard('board1',cfg);
+			
+			$('#move').on('input', function(e) {
+        board1.move($('#move').val());
+			});
+		});
+    </script>
+  </body>
+</html>
