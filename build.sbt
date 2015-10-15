@@ -3,8 +3,8 @@ seq(Revolver.settings: _*) //for sbt-revolver
 resolvers += "pathikrit" at "https://dl.bintray.com/pathikrit/maven/" //for better-files
 
 val autoImports: String = List("scalaz._","Scalaz._", "atto._", "Atto._",
-  "scala.io._", "java.io._", "java.nio._","java.nio.charset._",
-  "chess._", "chess.models._", "chess.Parsers._").mkString("import ",",",";\n")
+  "scala.io._", "java.io._", "java.nio._","java.nio.charset._", "java.nio.files._",
+  "chess._", "chess.models._", "chess.Parsers._", "better.files.{File => BetterFile, _}").mkString("import ",",",";\n")
 
 lazy val chess = (project in file(".")).
   settings(
