@@ -1,10 +1,8 @@
 package chess
 
 import chess.models._
-
 import scalaz.Scalaz._
 import scalaz._
-
 
 object Parsers extends App {
   import atto._
@@ -20,7 +18,7 @@ object Parsers extends App {
 
 
   object Tokens {
-    val str = Atto.stringLiteral
+    val str = bracket(char('"'),many(noneOf("\"")).map(_.mkString("")),char('"'))
     val int = Atto.int
     val dot = char('.')
     val star = char('*')
@@ -116,12 +114,9 @@ object Parsers extends App {
     import Moves._
     import TagPair._
     import Tokens._
-    val comment = token(braces(many(noneOf("{}")).map(_.mkString(""))))
     val game = (token(tagPairs) |@| token(comment?) |@| token(moves) |@| token(gameResult)){case x => x}
     val games = sepBy(game, wspc)
 
   }
-
-
-
+  
 }
