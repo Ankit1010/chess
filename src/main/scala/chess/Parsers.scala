@@ -102,8 +102,10 @@ object Parsers extends App {
     val moveNum: Parser[Int] = int <~ token(many(dot))
     val move: Parser[(Ply,Ply)] = for { moveNo <- moveNum;
                                         ply1 <- ply(2*moveNo-1);
+                                        _ <- ((parens(many(noneOf(")"))))?) //todo: support variations
                                         _ <- skipWhitespace;
-                                        ply2 <- (ply(2*moveNo)?) } yield {
+                                        ply2 <- (ply(2*moveNo)?);
+                                        _ <- ((parens(many(noneOf(")"))))?) } yield {
       (ply1,ply2.getOrElse(EmptyPly(2*moveNo, None)))
     }
 
@@ -118,5 +120,5 @@ object Parsers extends App {
     val games = sepBy(game, wspc)
 
   }
-  
+
 }

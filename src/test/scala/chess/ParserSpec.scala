@@ -6,21 +6,24 @@ import better.files.{File => BetterFile, _}
 import chess.Parsers.Game
 import org.scalatest._
 
+import scala.io.Codec
+
 /**
  * Created by ankit on 10/14/15.
  */
 class ParserSpec extends FlatSpec with Matchers {
 
-  val testGames = Cmds.ls(Paths.get(".") / "resources")
-
-
-  "A PGN parser"  should "parse test games" in {
+  "A PGN Parser" should "parse worldchampdb" in {
+    val pgn = Paths.get(".") / "resources" / "worldchampdb.truncated.pgn"
     val gamesParser = Parsers.Game.games
-    val parsedGames = testGames.map{file => gamesParser.parse(file.lines.mkString("\n")).done.option }.toStream
-    all(parsedGames) shouldBe defined
+    val parsed = gamesParser.parse(pgn.contentAsString(Codec.ISO8859)).done
+    parsed.option shouldBe defined
 
-    for (game <- parsedGames) println(game)
+    println(parsed)
+
   }
+
+
 
 
 }
